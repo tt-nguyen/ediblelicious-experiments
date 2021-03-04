@@ -15,6 +15,15 @@
             e.stopPropagation();
         });
 
+        // Clicking on .nav-list li (if it does not contain .nav-dropdown)
+        $('.nav-list li a:only-child').click(function (e) {
+            // If #nav-toggle and .nav-list are visible, minimise .nav-list
+            if ($('#nav-toggle').is(':visible') && $('.nav-list').is(':visible')) {
+                $('.nav-list').slideToggle(); // Close the navigation menu
+                $('#nav-toggle').toggleClass(); // X to hamburger
+            }
+        });
+
         // Clicking on .nav-container will minimise .nav-dropdown
         $('.nav-container').click(function () {
             $('.nav-dropdown').hide();
