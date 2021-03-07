@@ -32,6 +32,7 @@ main {
   width: 33%;
   height: 80%;
   color: #a5a9aa;
+  font-family: 'Great Vibes', cursive;
 }
 
 .art-recipe-1 {
@@ -46,10 +47,15 @@ main {
   border-color: #e6d5f7;
 }
 
-.art-recipe-1 h3, .art-recipe-2 h3, .art-recipe-3 h3 {
+.art-recipe-1 a, .art-recipe-2 a, .art-recipe-3 a {
   color: #a5a9aa;
-  text-transform: uppercase;
-  margin-top: 13px;
+  text-decoration: none;
+}
+
+.art-recipe-1 a h3, .art-recipe-2 a h3, .art-recipe-3 a h3 {
+  margin-top: 7px;
+  font-size: 1.75rem;
+  font-weight: lighter;
 }
 
 .recipe-image {
