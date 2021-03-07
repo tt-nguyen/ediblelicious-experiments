@@ -1,0 +1,32 @@
+header {
+  height: 45px;
+}
+
+#banner {
+  align-items: center;
+  justify-content: center;
+}
+
+#art-recipe {
+  border: #b1e3f7;
+  border-style: solid;
+  border-width: 10px;
+  margin-bottom: 40px;
+  width: 87%;
+  height: 30%;
+}
+
+#art-fave h3 {
+  color: #a5a9aa;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+#recipe-image {
+  border: #b1e3f7;
+  border-style: solid;
+  border-width: 10px;
+  margin-bottom: 40px;
+  height: 70%;
+  width: 87%;
+}

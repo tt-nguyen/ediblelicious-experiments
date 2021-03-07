@@ -33,7 +33,7 @@ header {
 }
 
 .nav-container {
-  background-color: #f7b1c6;
+  background-color: #dce9ee;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -90,7 +90,7 @@ header {
 }
 
 .nav-list {
-  background-color: #f7b1c6;
+  background-color: #dce9ee;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -116,12 +116,12 @@ header {
 
 .nav-list li a:hover {
   transition: all 0.3s ease 0s;
-  color: #b1e3f7;
+  color: #36a0ca;
 }
 
 .nav-dropdown {
   position: absolute;
-  background-color: #d5b1f7;
+  background-color: #446c92;
   padding: 0;
   margin-top: 20px;
   display: none;
@@ -130,7 +130,7 @@ header {
 
 .nav-dropdown li a:hover {
   transition: all 0.3s ease 0s;
-  color: #b1e3f7;
+  color: #36a0ca;
 }
 
 .nav-dropdown:after {
@@ -143,7 +143,7 @@ header {
 	transform: translate(0%, -100%);
 	border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
-	border-bottom: 8px solid #d5b1f7;
+	border-bottom: 8px solid #446c92;
 }
 
 .nav-dropdown li {
@@ -165,7 +165,7 @@ header {
 }
 
 .logo {
-  background-color: #f7b1c6;
+  background-color: #dce9ee;
   height: 75%;
   width: 34%;
   margin: 40px 0;
@@ -193,6 +193,7 @@ header {
 #home-image-1, #home-image-2 {
   height: 100%;
   width: 90%;
+  object-fit: cover;
 }
 
 main {
@@ -211,7 +212,7 @@ main {
 }
 
 #art-fave {
-  border: #b1e3f7;
+  border: #e6d5f7;
   border-style: solid;
   border-width: 10px;
   margin-bottom: 40px;
@@ -231,7 +232,7 @@ main {
 }
 
 #fave-image {
-  border: #b1e3f7;
+  border: #e6d5f7;
   border-style: solid;
   border-width: 10px;
   margin-bottom: 40px;
@@ -247,7 +248,7 @@ main {
 } */
 
 #art-news {
-  border: #f7b1c6;
+  border: #dce9ee;
   border-style: solid;
   border-width: 10px;
   width: 33%;
@@ -266,7 +267,7 @@ main {
 }
 
 #art-fail {
-  border: #d5b1f7;
+  border: #ffdbe8;
   border-style: solid;
   border-width: 10px;
   margin-bottom: 40px;
@@ -286,7 +287,7 @@ main {
 }
 
 #fail-image {
-  border: #d5b1f7;
+  border: #ffdbe8;
   border-style: solid;
   border-width: 10px;
   margin-bottom: 40px;
