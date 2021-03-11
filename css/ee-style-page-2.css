@@ -1,0 +1,161 @@
+header {
+  height: 350px;
+}
+
+.nav-list {
+  background-color: #f5bcbc;
+}
+
+.nav-list li a:hover {
+  color: #ca3636;
+}
+
+.nav-dropdown {
+  background-color: #924444;
+}
+
+.nav-dropdown:after {
+	border-bottom: 8px solid #924444;
+}
+
+.nav-dropdown li a:hover {
+  color: #ca3636;
+}
+
+#banner {
+  height: 305px;
+}
+
+.logo-dummy-1, .logo-dummy-2 {
+  height: 84%;
+  width: 25%;
+  background-color: #f5bcbc;
+  margin: 23px;
+}
+
+.logo {
+  height: 84%;
+  width: 53%;
+  background-color: #f5bcbc;
+  margin: 23px 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#page-row-1, #page-row-2 {
+  height: 305px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#art-container-1, #art-container-2 {
+  height: 305px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.art-recipe-1, .art-recipe-2 {
+  border-color: #f5bcbc;
+  border-style: solid;
+  border-width: 6px;
+  margin: 0 23px 23px 0;
+  width: 50%;
+  height: 87%;
+  color: #a5a9aa;
+  font-family: 'Great Vibes', cursive;
+}
+
+#art-container-1 .art-recipe-1 {
+  margin-left: 23px;
+}
+
+a {
+  color: #a5a9aa;
+  text-decoration: none;
+}
+
+a h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.recipe-image {
+  height: 70%;
+  width: 90%;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1280px) {
+  main {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+    margin: 0;
+  }
+
+  .logo-dummy-1 {
+    display: none;
+  }
+
+  .logo-dummy-2 {
+    width: 50%;
+  }
+
+  .logo {
+    width: 50%;
+    margin-left: 23px;
+  }
+
+  #page-row-1, #page-row-2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #art-container-1, #art-container-2 {
+    width: 100%;
+  }
+
+  .art-recipe-1 {
+    margin-left: 23px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header{
+    height: auto;
+  }
+  
+  .logo-dummy-2 {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+    margin-right: 23px;
+  }
+
+  #art-container-1, #art-container-2 {
+    flex-direction: column;
+    height: 610px;
+  }
+
+  .art-recipe-1, .art-recipe-2 {
+    width: 92.5%;
+    height: 45%;
+    margin-left: 23px;
+  }
+}
